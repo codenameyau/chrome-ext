@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Multi Links",
+  "version": "1.0.0",
+
+  "description": "A tool to open multiple links.",
+  "icons": {
+    "19": "assets/icon-19.png",
+    "38": "assets/icon-38.png",
+    "64": "assets/icon-64.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "19": "assets/icon-19.png",
+      "38": "assets/icon-38.png"
+    },
+    "default_title": "Multi Links",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["script.js"]
+  },
+
+  "permissions": [
+    "tabs",
+    "storage"
+  ]
+}
