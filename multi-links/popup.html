@@ -4,11 +4,22 @@
     <title>Multi Links</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="popup.css" type="text/css">
+    <link rel="stylesheet" href="popup.css" type="text/css">
+    <script defer src="script.js"></script>
   </head>
 
   <body>
-    <h1>Hello World!</h1>
+    <div class="nav">
+      <div class="nav-img">
+        <img src="assets/icon-38.png">
+      </div>
+      <div class="links-description">
+        Paste links below
+      </div>
+    </div>
+    <textarea id="textarea-links" class="textarea-links" placeholder="Add links here (1 per line)"></textarea>
+    <div>
+      <button id="open-links-btn" class="btn-full-width">Open all links</button>
+    </div>
   </body>
-
 </html>
