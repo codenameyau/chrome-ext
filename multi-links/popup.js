@@ -35,7 +35,11 @@ function saveLinks(e) {
 
 function openLinks(e) {
   var links = parseLinks(linksTextarea);
-  debugger;
+  links.forEach(function(link) {
+    chrome.tabs.create({
+      url: link
+    });
+  });
 }
 
 linksTextarea.addEventListener('keyup', saveLinks);
