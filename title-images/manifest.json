@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Multi Links",
+  "name": "Title Images",
   "version": "1.0.0",
 
-  "description": "A tool to open multiple links.",
+  "description": "Preview images for the current tab's website title",
   "icons": {
     "19": "assets/icon-19.png",
     "38": "assets/icon-38.png",
@@ -16,12 +16,13 @@
       "38": "assets/icon-38.png",
       "64": "assets/icon-64.png"
     },
-    "default_title": "Multi Links",
-    "default_popup": "popup.html"
+    "default_title": "Title Images",
+    "default_popup": "popup/popup.html"
   },
 
   "permissions": [
-    "tabs",
-    "storage"
+    "activeTab",
+    "https://ajax.googleapis.com/"
   ]
+
 }
