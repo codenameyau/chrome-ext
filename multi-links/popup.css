@@ -8,6 +8,7 @@ body {
 * NAVIGATION
 *********************************************************************/
 .nav {
+  width: 540px;
   background: #334D5C;
   padding: 5px 10px;
   color: #fff;
