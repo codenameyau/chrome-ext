@@ -14,11 +14,35 @@
         <img src="assets/cloud-icon-38.png">
       </div>
       <div class="nav-description">
-        Reality Check Settings
+        Reality Check
       </div>
+      <div class="nav-timer">30:00</div>
     </div>
+
     <div class="container">
-      <label></label>
+      <label class="input-label">
+        <span class="input-text">Notification Interval</span>
+        <select id="input-interval">
+          <option value="15">15 Minutes</option>
+          <option value="30">30 Minutes</option>
+          <option value="45">45 Minutes</option>
+          <option value="60">60 Minutes</option>
+        </select>
+      </label>
+
+      <label class="input-label">
+        <span class="input-text">Dismiss Time</span>
+        <select id="input-dismiss-time">
+          <option value="2">2 Seconds</option>
+          <option value="5">5 Seconds</option>
+          <option value="10">10 Seconds</option>
+          <option value="15">15 Seconds</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="footer">
+      <button id="toggle-btn" class="btn">Enable</button>
     </div>
   </body>
 </html>
