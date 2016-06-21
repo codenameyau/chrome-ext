@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Multi Links",
-  "version": "1.0.0",
+  "version": "0.0.0",
 
   "description": "A tool to open multiple links.",
   "icons": {
