@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Reality Check",
-  "version": "1.0.0",
+  "version": "0.0.0",
 
   "description": "Lucid dream reality check reminder with adjustable timer.",
   "icons": {
@@ -17,7 +17,17 @@
       "64": "assets/cloud-icon-64.png"
     },
     "default_title": "Reality Check",
-    "default_popup": "popup.html"
-  }
+    "default_popup": "popup/popup.html"
+  },
+
+  "options_ui": {
+    "page": "options/options.html",
+    "chrome_style": true,
+    "open_in_tab": false
+  },
+
+  "permissions": [
+    "storage"
+  ]
 
 }
